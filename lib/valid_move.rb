@@ -2,6 +2,9 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def valid_move?(board, x)
+  
+  
+  
   if x == 0
     return true
   elsif x == 0 || x == 1 || x == 2 || 3
