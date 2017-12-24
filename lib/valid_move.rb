@@ -6,10 +6,7 @@ def valid_move?(board, x)
     return false
   elsif board[x] == "O"
     return false
-  elsif x == 0
-    return true
   elsif x >= 0 && x <= 8
     return true
-
   end 
 end
