@@ -4,7 +4,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def valid_move?(board, x)
   if x == 0
     return true
-  elsif x == 5
+  elsif x == 
     return true
   elsif board[x] == "X"
     return false
