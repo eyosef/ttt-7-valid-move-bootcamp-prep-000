@@ -2,9 +2,9 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def valid_move?(board, x)
-    elsif board[x] == "X"
+  if board[x] == "X"
     return false
-  else board[x] == "O"
+  elsif board[x] == "O"
     return false
   
   
