@@ -8,7 +8,7 @@ def valid_move?(board, x)
     return false
   elsif x == 0
     return true
-  elsif x == 0 || x == 1 || x == 2 || 3
+  elsif x == 0 || x == 1 || x == 2 || x == 3 || x == 4
     return true
 
   end 
